@@ -1,0 +1,202 @@
+<style>
+.porto-box {
+  border: 2px solid;
+  padding: 10px;
+  box-shadow: 10px 10px;
+}
+
+.menu {
+  border: 2px solid;
+  padding: 5px;
+  box-shadow: 5px 5px;
+}
+
+</style>
+<!-- Header Start -->
+<header class="bg-white lg:bg-transparent border-b-[3px] lg:border-b-0 border-black absolute top-0 left-0 w-full flex items-center z-20">
+  <div class="container">
+    <div class="flex items-center justify-between relative">
+      <div class="px-4">
+        <a href="#home" class="font-bold text-lg text-primary block py-6 lg:hidden">ridofiqri</a>
+      </div>
+      <div class="flex items-center px-4 py-6">
+        <button id="hamburger" type="button" class="block absolute right-4 lg:hidden">
+          <span class="hamburger-line origin-top-left"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line origin-bottom-left"></span>
+        </button>
+        <nav id="nav-menu" class="hidden absolute py-5 bg-white lg:bg-white menu max-w-full w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+          <ul class="block lg:flex">
+            <li class="group">
+              <a href="#home" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary font-semibold">
+                Home
+              </a>
+            </li>
+            <li class="group">
+              <a href="#about" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary font-semibold">
+                About Me
+              </a>
+            </li>
+            <li class="group">
+              <a href="#portofolio" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary font-semibold">
+                Portofolio
+              </a>
+            </li>
+            <li class="group">
+              <a href="#contact" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary font-semibold">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- Header End -->
+<!-- Hero Section Start -->
+<section id="home" class="pt-24 ">
+  <div class="container">
+    <div class="flex flex-wrap">
+          <div class="w-full h-full self-center px-4 lg:w-1/2 porto-box">
+            <h1 class="text-base font-semibold text-primary md:text-xl lg:text-2xl pt-3 pl-3 lg:pt-10 lg:pl-10">My name is
+            <span class="block font-bold text-dark text-3xl lg:text-5xl mt-1">Muhammad Ridho Fiqri</span></h1>
+            <h2 class="font-medium text-secondary text-lg mb-5 pl-3 lg:pl-10">Back-End Developer | Spring Framework</h2>  
+            <p class="font-medium text-secondary pb-3 leading-relaxed pl-3 lg:pl-10 lg:pt-10 lg:pb-10">As a recent physics graduate, I bring strong analytical and problem-solving skills to the field of technology.</p>
+        </div>
+      <div class="w-full h-full self-center px-4 lg:w-1/2">
+        <div class="relative mt-10 lg:mt-9 lg:right-9">
+           <img src="/assets/img/ridho.png" alt="Muhammad Ridho" class="max-w-full mx-auto">
+           <span class="absolute -bottom-0 -z-10 left-1/2 -translate-x-1/2">
+            <svg width="420" height="420" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+              <path fill="#3b82f6" d="M44.9,-48.5C55.5,-44.7,59.3,-27.9,62.2,-11C65.1,5.9,67.1,22.9,61.3,37.7C55.5,52.5,41.9,65.1,27.4,66.7C12.9,68.2,-2.5,58.7,-18.2,52.1C-33.9,45.5,-49.9,41.7,-60.1,31.2C-70.4,20.7,-74.9,3.3,-70.4,-10.7C-65.8,-24.7,-52.2,-35.3,-39,-38.7C-25.7,-42,-12.9,-38,2.2,-40.6C17.2,-43.2,34.4,-52.4,44.9,-48.5Z" transform="translate(100 100)" />
+            </svg>
+           </span>
+        </div>
+      </div>
+    </div>
+</div>
+</section>
+<!-- Hero Section End -->
+<!-- About Section Start -->
+<section id="about" class="pb-32 border-b-2 border-black">
+  <div class="container">
+    <div class="flex flex-wrap">
+      <div class="w-full px-4 mb-4 lg:w-1/2 pt-20 lg:pt-0">
+        <h4 class="font-bold uppercase text-primary text-lg mb-3 pl-3">About Me</h4>
+        <h3 class="font-semibold text-dark text-2xl mb-4 lg:text-3xl pl-3">Back-End developer</h3>
+        <p class="font-medium text-base text-secondary max-w-xl lg:text-lg pl-3">Proficient in Java and the Spring Framework, I understand scalable applications and RestAPIs. Furthermore, I possess a solid understanding of Relational Database Management Systems and have effectively managed data. My knowledge in microservices allows me to design and develop applications with a modular architecture that is scalable and easy to maintain. A committed learner, I am enthusiastic about contributing my technical skills to an organization and thrive in challenging environments.</p>
+      </div>
+      <div class="w-full px-4 lg:w-1/2 porto-box">
+        <h3 class="font-semibold text-dark text-2xl mb-4 lg:text-3xl lg:pt-10 lg:pl-10 pl-3 pt-3">Lets Connect!</h3>
+        <p class="font-medium text-base text-secondary mb-6 max-w-xl lg:text-lg lg:pl-10 pl-3">Connect and explore new opportunities together! Whether you want to discuss a project idea or just grab a coffee, I'm always open to collaborating with new people. You can find my contact information below, so don't hesitate to get in touch.</p>
+        <div class="flex items-center lg:pl-10 pl-3 pb-3">
+          <!-- LinkedIn -->
+          <a href="https://www.linkedin.com/in/ridof79/" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-400 hover:border-primary hover:bg-primary hover:text-white">
+            <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>LinkedIn</title><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </a>
+          <!-- Github -->
+          <a href="https://github.com/ridof79/" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-400 hover:border-primary hover:bg-primary hover:text-white">
+            <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- About Section End -->
+<!-- Portofolio Section Start -->
+<section id="portofolio" class="pt-36 pb-16 border-y-2 bg-blue-300 border-black">
+  <div class="container">
+    <div class="w-full px-4">
+      <div class="max-w-xl mx-auto text-center mb-16 ">
+        <h4 class="font-semibold text-lg text-black mb-2 lg:text-xl">
+          Portofolio
+        </h4>
+        <h2 class="font-bold text-dark text-3xl mb-4 lg:text-5xl">Project</h2>
+        <p class="font medium text-md text-secondary md:text-lg">
+          Here are some of the projects I have worked on
+        </p>
+      </div>
+    </div>
+    <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
+      <div class="mb-12 p-4 md:w-1/2">
+        <div class="box rounded-md overflow-hidden bg-white porto-box ">
+          <img src="/assets/img/portofolio/qeris-pay.png" alt="QerisPay E-Wallet API">
+          <h3 class="font-semibold text-xl text-dark mt-5 mb-3 ml-2">QerisPay E-Wallet API</h3>
+          <p class="font-medium text-base text-secondary ml-2 mb-2">Qerispay is an e-wallet that facilitates seamless digital fund management. It offers QR code payment and cashback rewards. The app prioritizes user security and offers an efficient and rewarding way to manage finances.</p>
+        </div>
+      </div>
+      <div class="mb-12 p-4 md:w-1/2">
+        <div class="box rounded-md overflow-hidden bg-white porto-box">
+          <img src="/assets/img/portofolio/perpustakaan-online.png" alt="Perpustakaan Online API">
+          <h3 class="font-semibold text-xl text-dark mt-5 mb-3 ml-2">Perpustakaan Online API</h3>
+          <p class="font-medium text-base text-secondary ml-2 mb-2">An API for library book management that enables the efficient tracking and organization of library books. This API allows for easy access to information about books in the library, including their status, location, and availability.</p>
+        </div>
+      </div>
+      <div class="mb-12 p-4 md:w-1/2">
+        <div class="box rounded-md overflow-hidden bg-white porto-box">
+          <img src="/assets/img/portofolio/first-news.png" alt="First News Android">
+          <h3 class="font-semibold text-xl text-dark mt-5 mb-3 ml-2">First News</h3>
+          <p class="font-medium text-base text-secondary ml-2 mb-2">This Android Native app using Kotlin is designed to display news from the newsapi.org API. This app allows users to browse various news topics from leading news sources around the world.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Portofolio Section End -->
+<!-- Skill Section Start -->
+<section id="skill" class="pt-36 pb-32 border-y-2 border-black">
+  <div class="container">
+    <div class="w-full px-4">
+      <div class="mx-auto text-center mb-16 ">
+        <h4 class="font-semibold text-lg text-primary mb-2">
+          Skills
+        </h4>
+        <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">Hard Skill</h2>
+        <p class="font medium text-md text-secondary md:text-lg">
+          I have experience in several hardskills including Angular, Spring, RDBMS, and Java. I use Angular and have experience in building web applications using this framework. My experience in Spring includes creating RESTful web services, developing and integrating with databases, and using Spring Boot to rapidly create production-ready applications. I have experience in designing and implementing relational databases using tools such as MySQL, PostgreSQL. Experience in Java programming and have used it to develop web applications.
+        </p>
+      </div>
+    </div>
+
+    <div class="w-full px-4">
+      <div class="flex flex-wrap items-center justify-center">
+        <a href="" class="max-w-[120px] mx-4 py-4 grayscale opacity-65 transition duration-400 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+          <img src="/assets/img/skill/angular.png" alt="Angular">
+        </a>
+        <a href="" class="max-w-[120px] mx-4 py-4 grayscale opacity-65 transition duration-400 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+          <img src="/assets/img/skill/spring-framework.png" alt="Spring Framework">
+        </a>
+        <a href="" class="max-w-[120px] mx-4 py-4 grayscale opacity-65 transition duration-400 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+          <img src="/assets/img/skill/mysql.png" alt="MySQL">
+        </a>
+        <a href="" class="max-w-[120px] mx-4 py-4 grayscale opacity-65 transition duration-400 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+          <img src="/assets/img/skill/postgres.png" alt="PostgreSQL">
+        </a>
+        <a href="" class="max-w-[120px] mx-4 py-4 grayscale opacity-65 transition duration-400 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+          <img src="/assets/img/skill/git.png" alt="Git">
+        </a>
+        <a href="" class="max-w-[120px] mx-4 py-4 grayscale opacity-65 transition duration-400 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+          <img src="/assets/img/skill/python.png" alt="Python">
+        </a>
+        <a href="" class="max-w-[120px] mx-4 py-4 grayscale opacity-65 transition duration-400 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+          <img src="/assets/img/skill/java.png" alt="Java">
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Skill Section End -->
+<!-- Footer Start -->
+<footer class="bg-black pt-12 pb-12 border-t-2 border-black">
+  <div class="container">
+    <div class="flex flex-wrap juis">
+      <div class="max-w-xl mx-auto text-center px-4 font-medium text-white md:w-1/2">
+        <h3 class="mb-2 text-2xl font-bold text-white">Contact me!</h3>
+        <p>ridof79@hotmail.com</p>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- Footer End -->
